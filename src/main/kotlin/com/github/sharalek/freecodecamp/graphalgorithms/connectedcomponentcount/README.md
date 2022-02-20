@@ -1,0 +1,1 @@
+Example shows how to count the number of connected components within the undirected graph.
