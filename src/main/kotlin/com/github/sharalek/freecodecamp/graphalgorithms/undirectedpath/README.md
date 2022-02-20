@@ -1,0 +1,1 @@
+Example code returns a boolean indicating whether there exists path between two nodes in  an undirected graph.
