@@ -8,7 +8,7 @@ class HasPath {
     * and returns a boolean indicating whether or not there exists a directed path between two nodes.*/
 
     /* dfs traversal */
-    /*fun hasPath(graph: Map<Char, CharArray>, src: Char, dst: Char): Boolean {
+    fun hasPath_dfs(graph: Map<Char, CharArray>, src: Char, dst: Char): Boolean {
         if (src == dst) return true
 
         graph[src]?.forEach {
@@ -18,7 +18,7 @@ class HasPath {
         }
 
         return false
-    }*/
+    }
 
     /* bfs traversal*/
     fun hasPath(graph: Map<Char, CharArray>, src: Char, dst: Char): Boolean {
@@ -51,9 +51,7 @@ fun main() {
         'k' to charArrayOf()
     )
 
-    var isConnected = false;
-
-    isConnected = runner.hasPath(graph, 'j', 'f') //false
+    val isConnected: Boolean = runner.hasPath(graph, 'j', 'f') //false
     //isConnected = runner.hasPath(graph, 'f', 'k') //true
     println(isConnected)
 }

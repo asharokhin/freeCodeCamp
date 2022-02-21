@@ -1,9 +1,7 @@
 package com.github.sharalek.freecodecamp.graphalgorithms.connectedcomponentcount
 
-import com.github.sharalek.freecodecamp.graphalgorithms.graphtraversal.Traversal
-
 class ConnectedComponentCount {
-    fun connentedComponentCount(graph:  HashMap<Int, IntArray> ): Int {
+    fun connectedComponentCount(graph:  HashMap<Int, IntArray> ): Int {
         var count = 0
         val visited = HashSet<Int>()
 
@@ -41,6 +39,6 @@ fun main() {
         4 to intArrayOf(3, 2)
     )
 
-    println(runner.connentedComponentCount(graph)) //2
+    println(runner.connectedComponentCount(graph)) //2
 }
 

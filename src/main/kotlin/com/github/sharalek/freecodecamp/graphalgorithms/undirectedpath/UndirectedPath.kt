@@ -4,7 +4,6 @@ package com.github.sharalek.freecodecamp.graphalgorithms.undirectedpath
 class UndirectedPath {
     fun undirectedPath(edges:  Array<CharArray>, nodeA: Char, nodeB: Char): Boolean {
         val graph = buildGraph(edges)
-        //println(graph)
         
         return hasPath(graph, nodeA, nodeB, HashSet<Char>())
     }
@@ -54,9 +53,7 @@ fun main() {
         charArrayOf('o', 'n'),
     )
 
-    var result = false
-
-    result = runner.undirectedPath(edges, 'j', 'm') //true
+    val result = runner.undirectedPath(edges, 'j', 'm') //true
 
     println(result)
 }
