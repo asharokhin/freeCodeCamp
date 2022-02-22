@@ -1,0 +1,1 @@
+Code example shows how to check if binary tree contains some element.
