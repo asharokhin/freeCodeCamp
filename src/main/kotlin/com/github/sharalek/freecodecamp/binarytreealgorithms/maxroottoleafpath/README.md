@@ -1,0 +1,1 @@
+Code example shows ho to find the maximum sum of root to leaf path within a binary tree.

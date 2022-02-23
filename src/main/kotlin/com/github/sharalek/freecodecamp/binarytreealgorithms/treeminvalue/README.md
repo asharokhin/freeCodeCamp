@@ -1,0 +1,1 @@
+Code example shows how to find the smallest value in binary tree.
